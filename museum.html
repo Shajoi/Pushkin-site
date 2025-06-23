@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Карта музеев А.С. Пушкина</title>
+    <meta name="description" content="Интерактивная карта музеев Александра Пушкина в России и за рубежом. Режим работы, фотоэкскурсии, история мест, связанных с поэтом.">
+    <meta name="keywords" content="музеи Пушкина, усадьба Михайловское, Царское Село, музей-квартира на Мойке, памятные места Пушкина">
+    <link rel="stylesheet" href="css/museum.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+            <div class="dropdown">
+                <a href="index.html">Главная</a>
+                <div class="dropdown-content">
+                    <a href="index.html#about">О проекте</a>
+                    <a href="index.html#about_cards">Разделы</a>
+                    <a href="index.html#contacts">Контакты</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="biography.html">Биография</a>
+                <div class="dropdown-content">
+                    <a href="biography.html#timeline">Хронологическая прямая</a>
+                    <a href="biography.html#fullbio">Подробная биография</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="haracteristiks.html">Характеристика творчества</a>
+                <div class="dropdown-content">
+                    <a href="haracteristiks.html#osn_zanr">Основные жанры</a>
+                    <a href="haracteristiks.html#osob_style">Особенности стиля</a>
+                    <a href="haracteristiks.html#podhod">Подход к написанию произведений</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="proizvedeniya.html">Произведения</a>
+                <div class="dropdown-content">
+                    <a href="proizvedeniya.html#spisok">Список произведений</a>
+                    <a href="proizvedeniya.html#elbibl">Электронные библиотеки</a>
+                </div>
+            </div>
+              <div class="dropdown">
+                  <a href="museum.html" style="color: #d4af37">Карта музеев</a>
+              </div>
+        </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <img src="img/hero_pushkin.jpg" class="hero-image" alt="">
+        <div class="hero-content">
+            <h1 style="font-family: Calibri, serif">Александр Сергеевич Пушкин</h1>
+            <p style="font-family: Arial Narrow, serif">Музеи и достопримечательности, посвящённые великому поэту</p>
+        </div>
+    </section>
+<div class="container">
+    <section id="about">
+            <h2 class="section-title">Карта музеев</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; font-size: 18px;">
+                Александр Сергеевич Пушкин оставил след в истории культуры, а его наследие живёт в стенах музеев по всей России и за её пределами. На этой странице вы найдёте интерактивный список музеев, посвящённых жизни и творчеству поэта: от мемориальных квартир до специализированных выставок.
+            </p>
+    </section>
+	<section id="museum">
+            <div class="sections-grid">
+                    <div class="section-card">
+                        <h3 class="museum-title">Музей-квартира А.С. Пушкина на набережной реки Мойки</h3>
+                        <div class="card-media">
+                            <div class="card-image">
+                                <img src="img/museum_moika.jpg" alt="Музей">
+                            </div>
+                            <div class="map-container">
+                                <a href="https://yandex.ru/maps/org/vserossiyskiy_muzey_a_s_pushkina_muzey_kvartira_a_s_pushkina/1100883343/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Всероссийский музей А.С. Пушкина, Музей-квартира А.С. Пушкина</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей в Санкт‑Петербурге</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.321302%2C59.941162&mode=search&oid=1100883343&ol=biz&z=15.19" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                        <div class="museum-description">
+                            <p>Мемориальная квартира реконструирована на основе свидетельств современников и ряда исторических документов.
+                                В музее представлены: письменный стол и кресло в кабинете Пушкина, локон его волос, посмертная маска,
+                                украшения жены, портреты детей, диван, на котором умер поэт, и другие уникальные вещи, принадлежавшие как самому Пушкину,
+                                так и членам его семьи, друзьям и знакомым.</p>
+                        </div>
+                        <a href="https://www.museumpushkin.ru/vserossijskij_muzej_a._s._pushkina/muzej-kvartira_a.s.pushkina.html" class="card-link" target="_blank" style="color: black">Перейти на сайт музея</a>
+                    </div>
+                <div class="section-card">
+                        <h3 class="museum-title">Музей-заповедник «Михайловское»</h3>
+                        <div class="card-media">
+                            <div class="card-image">
+                                <img src="img/museum_mihailovskoe.jpg" alt="Музей">
+                            </div>
+                            <div class="map-container">
+                                <a href="https://yandex.ru/maps/org/pushkinskiy_zapovednik_muzey_usadba_mikhaylovskoye/32668088043/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Пушкинский Заповедник, Музей-усадьба Михайловское</a><a href="https://yandex.ru/maps/10926/pskov-oblast/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей в Псковской области</a><a href="https://yandex.ru/maps/10926/pskov-oblast/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Достопримечательность в Псковской области</a><iframe src="https://yandex.ru/map-widget/v1/?ll=28.920585%2C57.061051&mode=search&oid=32668088043&ol=biz&sctx=ZAAAAAgBEAAaKAoSCa8jDtlAUj5AEXUeFf93%2BE1AEhIJHm6HhsWoqz8R2GX4TzdQkD8iBgABAgMEBSgKOABA8YYGSAFqAnJ1nQHNzMw9oAEAqAEAvQEt0s9kwgEF6%2B2t2XmCAjzQnNGD0LfQtdC5LdC30LDQv9C%2B0LLQtdC00L3QuNC6IMKr0JzQuNGF0LDQudC70L7QstGB0LrQvtC1wruKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=28.920585%2C57.061051&sspn=0.015730%2C0.005037&text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%20%C2%AB%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%C2%BB&z=16.97" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                        <div class="museum-description">
+                            <p>В состав музея-заповедника входят: музей-усадьба «Михайловское» — имение матери поэта; музей-усадьба «Тригорское» — имение друзей поэта Осиповых и Вульфов; музей-усадьба «Петровское» — имение прадеда поэта; музей «Пушкинская деревня», музей «Мельница в д. Бугрово»; Научно-культурный центр с фондохранилищем и Центр творческих музейных программ.
+                            </p>
+                        </div>
+                        <a href="https://pushkinland.ru/" class="card-link" target="_blank" style="color: black">Перейти на сайт музея</a>
+                    </div>
+                <div class="section-card">
+                        <h3 class="museum-title">Музей-заповедник А.С. Пушкина «Болдино»</h3>
+                        <div class="card-media">
+                            <div class="card-image">
+                                <img src="img/museum_boldino.jpg" alt="Музей">
+                            </div>
+                            <div class="map-container">
+                                <a href="https://yandex.ru/maps/org/gosudarstvenny_literaturno_memorialny_i_prirodny_muzey_zapovednik_a_s_pushkina_boldino/1056163281/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Государственный литературно-мемориальный и природный музей-заповедник А.С. Пушкина Болдино</a><a href="https://yandex.ru/maps/11079/nizhny-novgorod-oblast'/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей в Нижегородской области</a><a href="https://yandex.ru/maps/11079/nizhny-novgorod-oblast'/category/scientific_educational_center/151699748573/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Научно-просветительский центр в Нижегородской области</a><iframe src="https://yandex.ru/map-widget/v1/?ll=45.309525%2C55.001547&mode=search&oid=1056163281&ol=biz&sctx=ZAAAAAgBEAAaKAoSCSswZHWr6zxAEa0x6ITQh0xAEhIJeqpDboYbkD8RMLlRZK2hdD8iBgABAgMEBSgKOABA8YYGSAFqAnJ1nQHNzMw9oAEAqAEAvQFEVZEuwgEF0YvP9wOCAknQnNGD0LfQtdC5LdC30LDQv9C%2B0LLQtdC00L3QuNC6INCQLiDQoS4g0J%2FRg9GI0LrQuNC90LAgwqvQkdC%2B0LvQtNC40L3QvsK7igIAkgIGMTc2MzAxmgIMZGVza3RvcC1tYXBz&sll=45.307332%2C55.001547&sspn=0.016398%2C0.005540&text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%90.%20%D0%A1.%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0%20%C2%AB%D0%91%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD%D0%BE%C2%BB&z=16.91" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                        <div class="museum-description">
+                            <p>В главном доме разместилась основная литературно-мемориальная экспозиция «А.С. Пушкин в Болдине». На основе сохранившихся исторических документов и археологических раскопок восстановлены утраченные надворные постройки: кухня, баня, людская, конюшня, а также два дома бывшего церковного порядка, примыкавшего к усадьбе. Рядом с усадьбой восстановлена каменная церковь Успения ХVIII в. и часовня Архангела Михаила на месте православного храма ХVII века.</p>
+                        </div>
+                        <a href="https://www.boldinomuzey.ru/" class="card-link" target="_blank" style="color: black">Перейти на сайт музея</a>
+                </div>
+                <div class="section-card">
+                        <h3 class="museum-title">Музей-квартира А.С. Пушкина на Арбате</h3>
+                        <div class="card-media">
+                            <div class="card-image">
+                                <img src="img/museum_arbat.jpg" alt="Музей">
+                            </div>
+                            <div class="map-container">
+                                <a href="https://yandex.ru/maps/org/muzey_kvartira_a_s_pushkina/1001967149/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Музей-квартира А. С. Пушкина</a><a href="https://yandex.ru/maps/213/moscow/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей в Москве</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.585908%2C55.747870&mode=search&oid=1001967149&ol=biz&sctx=ZAAAAAgBEAAaKAoSCcMRpFLsykJAEf0TXKyo30tAEhIJuti0Ugjkcj8R9KW3PxcNWT8iBgABAgMEBSgKOABAyZIHSAFqAnJ1nQHNzMw9oAEAqAEAvQGheUYfwgEFrZzj3QOCAjLQnNGD0LfQtdC5LdC60LLQsNGA0YLQuNGA0LAg0JAuINChLiDQn9GD0YjQutC40L3QsIoCAJICBjE3NjMwMZoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=37.585908%2C55.747870&sspn=0.025377%2C0.008413&text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%20%D0%90.%20%D0%A1.%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0&z=16.28" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                        <div class="museum-description">
+                            <p>В доме № 53 по улице Арбат располагается музей «Мемориальная квартира А.С. Пушкина». Здание включено в список памятников культуры государственного значения. В Москве это единственный музеефицированный мемориал великого русского поэта, где поэт не просто останавливался или гостил, но жил в течение трех месяцев 1831-го года.</p>
+                        </div>
+                        <a href="https://pushkinmuseum.ru/?q=node/4" class="card-link" target="_blank" style="color: black">Перейти на сайт музея</a>
+                </div>
+                <div class="section-card">
+                        <h3 class="museum-title">Музей А.С. Пушкина в Берново</h3>
+                        <div class="card-media">
+                            <div class="card-image">
+                                <img src="img/museum_bernovo.png" alt="Музей">
+                            </div>
+                            <div class="map-container">
+                                <a href="https://yandex.ru/maps/org/tverskoy_gosudarstvenny_obyedinenny_muzey_muzey_a_s_pushkina/1086702645/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Тверской государственный объединенный музей, Музей А.С. Пушкина</a><a href="https://yandex.ru/maps/10819/tver-oblast/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей в Тверской области</a><iframe src="https://yandex.ru/map-widget/v1/?ll=34.709073%2C56.688997&mode=poi&poi%5Bpoint%5D=34.709328%2C56.689935&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1086702645&z=15.94" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                        <div class="museum-description">
+                            <p>Тверской государственный объединённый музей ведет активную работу по многим направлениям. Выставочные проекты музея были представлены во многих городах России и за её пределами. Среди ученых большой популярность пользуются научные археологические семинары музея «Тверская земля и сопредельные территории в древности».</p>
+                        </div>
+                        <a href="https://tvermuzeum.ru/" class="card-link" target="_blank" style="color: black">Перейти на сайт музея</a>
+                </div>
+            </div>
+</section>
+</div>
+<footer id="contacts">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li>Email: <a href="mailto:maxim.resetkin@mail.ru">maxim.resetkin@mail.ru</a> </li>
+                        <li>Телефон: +7 (123) 456-78-90</li>
+                        <li><a href="#" onclick="openModal(event)" class="feedback-link">Обратная связь</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                2025г. Материалы сайта могут быть использованы в образовательных целях с указанием источника.
+            </div>
+        </div>
+</footer>
+<div id="modalformfeedback" class="forma">
+    <div class="form-content">
+        <div class="form-header">
+            <h2>Обратная связь</h2>
+            <span class="close" onclick="closeModal()">×</span>
+        </div>
+        <div class="form-body">
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label>Имя:</label>
+                    <input type="text" class="input-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Фамилия:</label>
+                    <input type="text" class="input-lastname" required>
+                </div>
+                <div class="form-group">
+                    <label>Отзыв:</label>
+                    <textarea class="input-feedback" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="card-link">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
