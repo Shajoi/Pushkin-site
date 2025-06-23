@@ -1,3 +1,3 @@
 # Pushkin-site
-Website about Pushkin
-# Курсовая работа по Web-программированию
+- Website about Pushkin
+- Курсовая работа по Web-программированию
