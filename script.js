@@ -2,8 +2,8 @@ function openModal() {
     document.getElementById('modalformfeedback').style.display = 'block';}
 function closeModal() {
     document.getElementById('modalformfeedback').style.display = 'none';}
-const BOT_TOKEN = '5845688463:AAGBypQ-umXE0q-_rWHlxc5RgBo5ih8LwiE';
-const CHAT_ID = '1322513664';
+const BOT_TOKEN = 'токен';
+const CHAT_ID = 'айди чата';
 $('#feedbackForm').submit(function(event) {
     event.preventDefault();
     let name = $('.input-name').val();
